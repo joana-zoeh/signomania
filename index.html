@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignoMania</title>
+    <link rel="stylesheet" href="signomania.css">
+</head>
+
+<body>
+    <header>
+        
+        <img src="boladecristalofc.png" style="height: 110px; margin-right: 0;">
+        <h1 style="margin-left: 10px;">SignoMania</h1>
+    
+    </header>
+    <nav>
+        <div id="menu">
+            <a href="signos.html">Signos</a>
+            <a href="index.html" id="horóscopo">Horóscopo</a>
+            <a href="ascendentes.html">Ascendentes</a>
+            <a href="mapaastral.html">Mapa Astral</a>
+            <a href="ajuda.html">Ajuda</a>
+        </div>
+    </nav>
+    <main>
+        <h1 id="h1">Qual o seu signo?</h1>
+        <form name="quizsigno">
+            <div id="quiz" >
+
+                
+
+
+                <div id="cx1"  class="signo">
+                    <div id="p1" class="pergunta"><input type="radio" name="questao1">Peixes</div>
+                    <div id="r1" class="resposta">
+                        <p id="resultado1"></p>
+                    </div>
+
+                </div>
+                <div id="cx2"  class="signo">
+                    <div id="p2" class="pergunta"><input type="radio" name="questao1"> Áries</div>
+                    <div id="r2" class="resposta">
+                        <p id="resultado2"></p>
+                    </div>
+                </div>
+                <div id="cx3"  class="signo">
+                    <div id="p3" class="pergunta"><input type="radio" name="questao1">Touro</div>
+                    <div id="r3" class="resposta">
+                        <p id="resultado3"></p>
+                    </div>
+                </div>
+                <div id="cx4"  class="signo">
+                    <div id="p4" class="pergunta"><input type="radio" name="questao1">Gêmeos</div>
+                    <div id="r4" class="resposta">
+                        <p id="resultado4"></p>
+                    </div>
+                </div>
+                <div id="cx5"  class="signo">
+                    <div id="p5" class="pergunta"><input type="radio" name="questao1">Câncer</div>
+                    <div id="r5" class="resposta">
+                        <p id="resultado5"></p>
+                    </div>
+                </div>
+                <div id="cx6"  class="signo">
+                    <div id="p6" class="pergunta"><input type="radio" name="questao1">Leão</div>
+                    <div id="r6" class="resposta">
+                        <p id="resultado6"></p>
+                    </div>
+                </div>
+                <div id="cx7"  class="signo">
+                    <div id="p7" class="pergunta"><input type="radio" name="questao1">Virgem</div>
+                    <div id="r7" class="resposta">
+                        <p id="resultado7"></p>
+                    </div>
+                </div>
+                <div id="cx8"  class="signo">
+                    <div id="p8" class="pergunta"><input type="radio" name="questao1"> Libra</div>
+                    <div id="r8" class="resposta">
+                        <p id="resultado8"></p>
+                    </div>
+                </div>
+                <div id="cx9"  class="signo">
+                    <div id="p9" class="pergunta"><input type="radio" name="questao1">Escorpião</div>
+                    <div id="r9" class="resposta">
+                        <p id="resultado9"></p>
+                    </div>
+                </div>
+                <div id="cx10"  class="signo">
+                    <div id="p10" class="pergunta"><input type="radio" name="questao1">Sagitário</div>
+                    <div id="r10" class="resposta">
+                        <p id="resultado10"></p>
+                    </div>
+                </div>
+                <div id="cx11"  class="signo">
+                    <div id="p11" class="pergunta"><input type="radio" name="questao1">Capricórnio</div>
+                    <div id="r11" class="resposta">
+                        <p id="resultado11"></p>
+                    </div>
+                </div>
+                <div id="cx12"  class="signo">
+                    <div id="p12" class="pergunta"><input type="radio" name="questao1">Aquário</div>
+                    <div id="r12" class="resposta">
+                        <p id="resultado12"></p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="botão">
+                <p>
+                    <input type="button" value="Ver sua Previsão" id="botãoprevisão" onclick="corrigir()">
+                    <!--para configurar não precisa olocar id-->
+                </p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p id="copy">Copyright &copy; Joana Zoeh</p>
+    </footer>
+    <script src="signomania.js"></script>
+</body>
+
+</html>
